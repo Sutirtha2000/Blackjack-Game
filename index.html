@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,13 +10,13 @@
 </head>
 <body>
     <h1>BLACKJACK GAME</h1>
-    <h2></h2>
-    <h3>Cards: </h3>
-    <h4>Sum: </h4>
-    <button>START GAME</button>
+    <h2 id="msg-el"></h2>
+    <h3 id="cards-el">Cards: </h3>
+    <h4 id="sum-el"></h4>
+    <button onclick="startGame()">START GAME</button>
     <br>
-    <button>NEW CARD</button>
-    <h3></h3>
+    <button onclick="newCard()">NEW CARD</button>
+    <h3 id="user-el"></h3>
     <script src="index.js"></script>
 </body>
 </html>
